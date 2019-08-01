@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="idealflatmateSearchFM" verbose="1">
+
+    <test name="searchFM">
+        <classes>
+            <class name="uk.co.idealflatmate.tests.SearchFMPageTests" />
+        </classes>
+    </test>
+
+
+
+
+
+
+    <!--
+    <test name="registration">
+                <classes>
+                    <class name="uk.co.idealflatmate.tests.ACleanaTests" />
+                    <class name="uk.co.idealflatmate.tests.bListingbTests" />
+                    <class name="uk.co.idealflatmate.tests.AreaPageTests" />
+                    <class name="uk.co.idealflatmate.tests.RegistrationTests" />
+                    <class name="uk.co.idealflatmate.tests.FooterTests" />
+                    <class name="uk.co.idealflatmate.tests.testHomePageTests" />
+                    <class name="uk.co.idealflatmate.tests.MatchingTests" />
+                    <class name="uk.co.idealflatmate.tests.MessagesTests" />
+                    <class name="uk.co.idealflatmate.tests.PaymentTests" />
+                    <class name="uk.co.idealflatmate.tests.SearchFMPageTests" />
+                    <class name="uk.co.idealflatmate.tests.SearchHomePageTests" />
+                    <class name="uk.co.idealflatmate.tests.SearchPropertiesPageTests" />
+                    <class name="uk.co.idealflatmate.tests.SignUpLikeOrMessageTests" />
+                    <class name="uk.co.idealflatmate.tests.SignUpMatchingTests" />
+                    <class name="uk.co.idealflatmate.tests.SignUpTests"/>
+                    <class name="uk.co.idealflatmate.tests.ZEmailzTests" />
+
+                </classes>
+
+
+        </test>
+
+        <test name="Test2">
+
+
+            <parameter name="confEmail" value="proideal@ukr.net"/>
+            <parameter name="confPassword" value="qqqqqq666D"/>
+            <classes>
+            <class name="uk.co.idealflatmate.tests.ACleanaTests" />
+            </classes>
+        </test>
+    <test name="Test3">
+
+
+        <parameter name="confEmail" value="ron666ddd@gmail.com"/>
+        <parameter name="confPassword" value="qqqqqq666D"/>
+        <classes>
+            <class name="uk.co.idealflatmate.tests.ACleanaTests" />
+        </classes>
+    </test>-->
+    <!--<test name="Test2">
+        <classes>
+            <class name="uk.co.idealflatmate.tests.FooterTests">
+                <methods>
+                    <include name="footerInstagramLink" />
+                    <include name="footerTwitterLink" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+<test name="ToolsQA">
+    <classes>
+    <class name="uk.co.idealflatmate.tests.SignUpTests"/>
+        <parameter name="firstName1" value="Ronaldina"/>
+
+        <parameter name="sPassword" value="Test@123"/>
+    </classes>-->
+
+
+
+</suite>
+

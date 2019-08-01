@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="idealflatmatetest" verbose="5">
+
+
+        <test name="Test2">
+
+        <parameter name="confEmail" value="proideal@ukr.net"/>
+        <parameter name="confPassword" value="qqqqqq666D"/>
+        <classes>
+            <class name="uk.co.idealflatmate.tests.ACleanaTests" >
+                <methods>
+                    <include name="removeAccountBeforeTestLive"/>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+
+        <test name="Test3">
+
+            <parameter name="confEmail" value="ron666ddd@gmail.com"/>
+            <parameter name="confPassword" value="qqqqqq666D"/>
+            <classes>
+                <class name="uk.co.idealflatmate.tests.ACleanaTests" >
+                    <methods>
+                        <include name="removeAccountBeforeTestLive"/>
+                    </methods>
+
+                </class>
+            </classes>
+        </test>
+        <!--<test name="Test2">
+            <classes>
+                <class name="uk.co.idealflatmate.tests.FooterTests">
+                    <methods>
+                        <include name="footerInstagramLink" />
+                        <include name="footerTwitterLink" />
+                    </methods>
+                </class>
+            </classes>
+        </test>
+    <test name="ToolsQA">
+        <classes>
+        <class name="uk.co.idealflatmate.tests.SignUpTests"/>
+            <parameter name="firstName1" value="Ronaldina"/>
+
+            <parameter name="sPassword" value="Test@123"/>
+        </classes>-->
+
+
+
+    </suite>

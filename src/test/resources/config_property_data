@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+meta charset="utf-8"
+meta http-equiv="Content-Type" content="text/html; charset=utf-8"
+//mesPropSignUpNotBuddy_Up
+property_id1=18376
+property_id2=44234
+property_id3=45880
+name1=Trouble
+location1=Leeds
+age1=60
+index1=1
+location1=New York Street (stop K11), Leeds LS2 7DT, UK
+
+percentComplete1=50% complete
+myProfile1=User Type\nPersonal Details\nProperty Preferences\nBudget & Availability\nYour ideal flatmate
+name1=Trouble
+age1=60
+lookingFor1=I'm looking for a room
+aboutMe1=About me\nTrouble, 60 is a female looking for a room.\nMaximum budget: 2500/month\nReady to move in: Immediately
+amountPropCards1=0
+rooms1=0
+index2=0
+
+//signUpLikeHomePage
+percentComplete2=70% complete
+myProfile2=User Type\nPersonal Details\nProperty Preferences\nBudget & Availability\nYour ideal flatmate
+name2=Ronald
+age2=19
+lookingFor2=I'm looking for a room
+aboutMe2=About me\nTell us about yourself\nMaximum budget: 2500/month\nReady to move in: Immediately
+amountPropCards2=0
+rooms2=0
+
+//popupPropertyPage
+percentComplete3=80% complete
+myProfile3=User Type\nPersonal Details\nProperty Preferences\nBudget & Availability\nYour ideal flatmate
+name3=Ronald
+age3=19
+lookingFor3=I'm looking for a room
+aboutMe3=About me\nTell us about yourself\nMaximum budget: 400/month\nReady to move in: 08-08-2019\nLooking for a room in\nWatford
+amountPropCards3=0
+rooms3=1
+
+//signUpPropertyAdding
+percentComplete4=75% complete
+myProfile4=User Type\nPersonal Details\nYour ideal tenant
+name4=Ronald
+age4=no age
+lookingFor4=Check out our available rooms.
+aboutMe4=About us\nTell us about yourself
+amountPropCards4=0
+rooms4=0
+
+//testAaabAddWholeProperty2
+percentComplete5=50% complete
+myProfile5=User Type\nPersonal Details\nYour ideal tenant
+name5=Ronald
+age5=no age
+lookingFor5=Check out our available rooms.
+aboutMe5=About us Ronald is an agency looking for a tenant in Bayswater, West London.
+amountPropCards5=1
+rooms5=0
+
+//testBbbAaaMessageSignUpFMPageBuddy_Up
+percentComplete6=70% complete
+myProfile6=User Type Personal Details Property Preferences
+name6=Ronald
+age6=64
+lookingFor6=I'm looking for a room
+aboutMe6=About me I want to Buddy_up
+amountPropCards6=0
+rooms6=0
+
+//testGggCardChatSignUpViaFB
+percentComplete7=60% complete
+myProfile7=User Type Personal Details Property Preferences Budget & Availability Your ideal flatmate
+name7=Francine
+age7=60
+lookingFor7=I'm looking for a room
+aboutMe7=About me Francine, 60 is a female student looking for a room.
+amountPropCards7=0
+rooms7=0
+
+
+//SignUpMatchingWithRequiredFieldsRoom
+percentComplete8=80% complete
+myProfile8=User Type\nPersonal Details\nProperty Preferences\nBudget & Availability\nYour ideal flatmate
+name8=Ronaldina
+age8=42
+lookingFor8=I'm looking for a room
+aboutMe8=About me\nTell us about yourself\nMaximum budget: 400/month\nReady to move in: 08-08-2019\nLooking for a room in\nWatford
+amountPropCards8=0
+rooms8=1
+
+
+//testHeaderRoomSignUpHomePageFM
+percentComplete9=80% complete
+myProfile9=User Type\nPersonal Details\nProperty Preferences\nBudget & Availability\nYour ideal flatmate
+name9=Ronaldina
+age9=19
+lookingFor9=I'm looking for a room
+aboutMe9=About me\nTell us about yourself\nMaximum budget: 400/month\nReady to move in: 08-08-2019\nLooking for a room in\nWatford
+amountPropCards9=0
+rooms9=0
+
+
+//testHeaderSignUpHomePageFMSearchLiv_inWithoutAbout
+percentComplete10=60% complete
+myProfile10=User Type\nPersonal Details\nYour ideal flatmate
+name10=Donald
+age10=60
+lookingFor10=I have a room available
+aboutMe10=About me\nDonald, 60 is a male student looking for a flatmate.
+amountPropCards10=0
+rooms10=0
+
+//testHeaderSignUpViaFacebook
+percentComplete11=70% complete
+myProfile11=User Type\nPersonal Details\nProperty Preferences\nBudget & Availability\nYour ideal flatmate
+name11=Francine
+age11=60
+lookingFor11=I'm looking for a room
+aboutMe11=About me\nFrancine, 60 is a male freelancer/self employed looking for a room in Zone 1 or Watford or North London.\nMaximum budget: 400/month\nReady to move in: Immediately\nLooking for a room in\nZone 1\nWatford\nNorth London
+amountPropCards11=0
+rooms11=3
+
+
+//testListingSignUpHeader
+percentComplete12=50% complete
+myProfile12=User Type\nPersonal Details\nYour ideal tenant
+name12=Kron
+age12=no
+lookingFor12=I have a room available
+aboutMe12=About me\nKron is a live-out landlord looking for a tenant.
+amountPropCards12=0
+rooms12=0
+
+//testListingSignUpFromHomepage
+percentComplete13=80% complete
+myProfile13=User Type\nPersonal Details\nYour ideal flatmate
+name13=Kron
+age13=19
+lookingFor13=I have a room available
+aboutMe13=About me\nTell us about yourself
+amountPropCards13=0
+rooms13=0
+
+//logInMesPropVerifProfilePageFull
+percentComplete14=70% complete
+myProfile14=User Type\nPersonal Details\nYour ideal flatmate
+name14=Property1
+age14=22
+lookingFor14=I have a room available
+aboutMe14=About me\nProperty1, 22 is a male professional looking for flatmates in Crewe or Crofton Park, South London or Notting Hill, West London.\nMy available rooms are\nWeston Rd, Crewe CW1 6NA, UK\nCrofton Park, SE4 2BY\nNotting Hill, W11 4UL\nEaling, W13 0DD\nUpper Parliament Street (Stop U1), Nottingham NG1 6LD, UK\n66 Staines Road, Hounslow, TW3 3LF, UK
+amountPropCards14=6
+rooms14=6
+
+//testSignUpViaFBlistingAgent
+percentComplete15=75% complete
+myProfile15=User Type\nPersonal Details\nYour ideal tenant
+name15=Kron
+age15=no age
+lookingFor15=Check out our available rooms.
+aboutMe15=About us\nI am an agent
+amountPropCards15=0
+rooms15=0
+
+//testHeaderRoomSignUpHomePageTenant
+percentComplete16=70% complete
+myProfile16=User Type\nPersonal Details\nProperty Preferences\nBudget & Availability\nYour ideal flatmate
+name16=Molly
+age16=19
+lookingFor16=I'm looking for a room
+aboutMe16=About me\nTell us about yourself\nMaximum budget: 2500/month\nReady to move in: Immediately
+amountPropCards16=0
+rooms16=0
+percentComplete17=70% complete
+name17=Tolly
+lookingFor17=I am looking to buddy up
+aboutMe17=About me\nTolly, 19 is a female other looking for a room in Watchetts.\nMaximum budget: 1500/month\nReady to move in: 11-01-2020\nLooking for a room in\nWatchetts
+aboutMe18=Ready to move in:
+
+//testHeaderSignUpViaGoogle
+percentComplete19=70% complete
+myProfile19=User Type\nPersonal Details\nProperty Preferences\nBudget & Availability\nYour ideal flatmate
+name19=Met
+age19=60
+lookingFor19=I'm looking for a room
+aboutMe19=About me\nMet, 60 freelancer/self employed is looking for a room in Zone 1 or Watford or North London.\nMaximum budget: 400/month\nReady to move in: Immediately\nLooking for a room in\nZone 1\nWatford\nNorth London
+amountPropCards19=0
+rooms19=3
+
+//testHeaderSignUpViaGoogle
+percentComplete20=70% complete
+myProfile20=User Type\nPersonal Details\nProperty Preferences\nBudget & Availability\nYour ideal flatmate
+name20=Ned
+age20=60
+lookingFor20=I'm looking for a room
+aboutMe20=About me\nNed, 60 freelancer/self employed is looking for a room in Zone 1 or Watford or North London.\nMaximum budget: 400/month\nReady to move in: Immediately\nLooking for a room in\nZone 1\nWatford\nNorth London
+amountPropCards20=0
+rooms20=3

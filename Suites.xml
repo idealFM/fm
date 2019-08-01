@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ParentSuite">
+    <suite-files>
+
+        <suite-file path="testClear.xml"/>
+        <suite-file path="testArea.xml"/>
+        <suite-file path="testMes.xml"/>
+        <suite-file path="testList.xml"/>
+        <suite-file path="testFooter.xml"/>
+        <suite-file path="testMatching.xml"/>
+        <suite-file path="testPayment.xml"/>
+        <suite-file path="testRegist.xml"/>
+        <suite-file path="testSearchFM.xml"/>
+        <suite-file path="testSearchFMHome.xml"/>
+        <suite-file path="testProp.xml"/>
+        <suite-file path="testSignLike.xml"/>
+        <suite-file path="testSignMatch.xml"/>
+        <suite-file path="testSign.xml"/>
+        <suite-file path="testzEmail.xml"/>
+    </suite-files>
+</suite>
