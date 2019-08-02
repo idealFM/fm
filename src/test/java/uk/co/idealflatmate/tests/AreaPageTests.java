@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.Features;
 import ru.yandex.qatools.allure.annotations.Stories;
+import uk.co.idealflatmate.appmanager.HeaderAreaTab;
 
 import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Selenide.clearBrowserCookies;
@@ -36,7 +37,9 @@ public class AreaPageTests extends TestBase {
         String area1 = collectionReturn(areaNameInCarousel()).get(2).text();
         areaPageHelper.clickArea(1);
         areaPageHelper.checkAreaName(area1);
-        areaPageHelper.clickHeaderItem("top-spots",  "explore", area1);
+        areaPageHelper.clickHeaderItem(new HeaderAreaTab().withSelect1("top-spots")
+                        .withSelect2("explore")
+                        .withArea(area1));
 
     }
     @Features("Area")

@@ -66,8 +66,8 @@ public class AuthorHeaderMenuHelper extends HelperBase {
     private SelenideElement popup_SignIn_phone = $(byXpath("//div[@id='signupRevealModal']//div//a[@class='text-bold' and contains(., 'Sign')]"));
     private SelenideElement drop_Menu_My_profile = $(byXpath("//ul[@class='dropdown-menu']//a[contains(., 'My profile')]"));
 
-    private String  tab_inner_header1 = "//body//div[@class='inner-menu--scroll']//li/a[contains(., '";
-    private String  tab_inner_header2 = "')]";
+    private String  tab_inner_header1 = "//body//div[@class='inner-menu--scroll']//li/a[contains(., '%s')]";
+
     private SelenideElement popup_button_close_SignUp = $(byXpath("//div[@id='signupNeedspaceModal']//button[@class='btn btn-sm close u_m15']"));
 
     private final VerificationHelper verificationHelper = new VerificationHelper();
@@ -237,7 +237,7 @@ public class AuthorHeaderMenuHelper extends HelperBase {
     }
     @Step
     public void chooseTabFromInnerMenuDashboard(final String item) {
-        $(byXpath(tab_inner_header1 + item + tab_inner_header2)).click();
+        $(byXpath(String.format(tab_inner_header1, item))).click();
     }
     @Step
     public void clickClosePopupSignUp() {

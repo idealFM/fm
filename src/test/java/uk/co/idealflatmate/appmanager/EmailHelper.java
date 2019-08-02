@@ -10,8 +10,8 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class EmailHelper extends HelperBase {
 
-    String tip = "(//span[contains(., 'AM') or contains(., 'PM')]//ancestor::tr//div//div//span[contains(., \'";
-    String tip2 = "\')]//ancestor::tr//td/div[@role='checkbox'])[1]";
+    String tip = "(//span[contains(., 'AM') or contains(., 'PM')]//ancestor::tr//div//div//span[contains(., '%s')]//ancestor::tr//td/div[@role='checkbox'])[1]";
+
     public SelenideElement button_Inbox = $(byXpath("(//span[starts-with(@class, 'nU ')])[1]"));
 
     public final VerificationHelper verificationHelper = new VerificationHelper();
@@ -63,7 +63,7 @@ public class EmailHelper extends HelperBase {
     }
     @Step
     public void tipCheckboxMessage(final String message) {
-            $(byXpath(tip+ message + tip2)).waitUntil(visible, 6000).click();
+            $(byXpath(String.format(tip, message))).waitUntil(visible, 6000).click();
         sleep(2000);
     }
 
